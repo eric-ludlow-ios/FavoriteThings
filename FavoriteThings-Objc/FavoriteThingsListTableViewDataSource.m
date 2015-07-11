@@ -61,6 +61,7 @@ static NSString *cellID = @"cellID";
     //put the content of the array into the cell's textLabel text property using the row of the passed in indexPath
     
     cell.textLabel.text = [self favoriteThingsListArray][indexPath.row];
+    cell.backgroundColor = [UIColor yellowColor];
     
     return cell;
 }
